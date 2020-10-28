@@ -2,8 +2,9 @@ let i=0
 let tong=0
 while (i<=30){
     if (i%7==0){
-        document.write(i+"<br>")
+        document.write("Các số chia hết cho 7 là: "+ i+"<br>")
         tong=tong+i
     }
+    i++
 }
-document.write(tong)
+document.write("Tổng là: "+  tong)
